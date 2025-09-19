@@ -1,0 +1,82 @@
+1. ¿Qué es una clase y que elementos la constituyen?
+
+Una clase es una estructura fundamental en POO (Programación Orientada a Objetos) la cual define un tipo de objeto.
+Los elementos que las constituyen:
+
+    *Atributos o propiedades: 
+        Variables definidas para referirnos al objeto
+
+    *Métodos: 
+        Funciones que definen el comportamiento del objeto
+
+    *Constructor (__init__):
+        Inicializar objetos al crearlos
+
+    *Herencia:
+    Dar las capacidades de un programa a otro
+
+    *Encapsulamiento:
+    Conjunto de operaciones que se ejecutan en las clases con los objetos
+
+    *Polimorfismo:
+    Capacidad de un metodo el cual cambia dependiendo de la funcion que le estemos dando.
+
+2. ¿Cuál es el resultado en la pantalla? si se tiene el sig código en python:
+
+    *Código:
+
+    frutas = ['piñas', 'peras', 'manzanas', 'platanos', 'naranjas']
+
+    print('frutas[1:3]: ', frutas[1:3])
+    print('frutas[:]: ', frutas[:])
+    print('frutas[-1]: ', frutas[-1])
+
+    *Resultado:
+
+    frutas[1:3]:  ['peras', 'manzanas']
+    frutas[:]:  ['piñas', 'peras', 'manzanas', 'platanos', 'naranjas']
+    frutas[-1]:  naranjas
+    
+   | En el resultado se interpreta como:
+   | En el primero se toma al dato que esta en la posicion 1 para iniciar y termina en el tercer dato
+   | En el segundo de argumenta como ":" es igual a todas las frutas existentes
+   | En el tercero como uno antes del primero en este caso "naranjas"
+ 
+3. ¿Cuál es la diferencia entre una lista y un diccionario en Python?
+
+    *Lista:
+    Es el conjunto de elementos ordenados en cualquier tipo de datos(booleanos, numeros, cadenas, etc)
+
+    *Diccionario:
+    Son pares de clave-valor
+
+4. En el siguiente código, escribe la instrucción necesaria para cambiar el campo nombre del objeto persona a 'pedro'
+
+    *Código: 
+
+     persona = {'nombre': 'juan',
+            'edad':'23',
+            'genero': 'Masculino',
+            'trabaja': True,
+            'ocupacion': 'Estudiante'}
+
+    
+    *Instrucción necesaria: 
+
+    persona['nombre'] = 'pedro'
+
+    *Resultado:
+
+     persona = {'nombre': 'juan',
+            'edad':'23',
+            'genero': 'Masculino',
+            'trabaja': True,
+            'ocupacion': 'Estudiante'}
+
+    persona['nombre'] = 'pedro'
+    
+    print (persona)
+
+    | Del diccionario "persona" y se toma la clave "nombre", en donde se le da una nueva definición en este caso "pedro"
+
+    
